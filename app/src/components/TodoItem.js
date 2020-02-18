@@ -1,7 +1,7 @@
 import React from 'react'
 
-const TodoItem = ({ todo }) => {
-  return <div className='todo-item'>{todo.item}</div>
+const TodoItem = ({ text }) => {
+  return <li className='todo-item'>{text}</li>
 }
 
 export { TodoItem }
